@@ -125,3 +125,4 @@ class ContentIntegrationTest {
                 .andExpect(jsonPath("$.about").exists());
     }
 }
+

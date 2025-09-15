@@ -60,3 +60,4 @@ if ($failed -gt 0) {
 } else {
     Write-Host "`nAll requests successful!" -ForegroundColor Green
 }
+

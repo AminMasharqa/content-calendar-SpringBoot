@@ -170,3 +170,4 @@ class ContentControllerTest {
         verify(repository).listByStatus(Status.IDEA);
     }
 }
+
