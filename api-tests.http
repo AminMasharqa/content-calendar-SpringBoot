@@ -1,0 +1,88 @@
+### Content Calendar API Tests
+### Base URL
+@baseUrl = http://localhost:8080
+
+### 1. Test Home Endpoint
+GET {{baseUrl}}/
+Accept: application/json
+
+### 2. Get All Content
+GET {{baseUrl}}/api/content
+Accept: application/json
+
+### 3. Create New Content
+POST {{baseUrl}}/api/content
+Content-Type: application/json
+
+{
+  "title": "Test Article",
+  "desc": "This is a test article description",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dateCreated": "2025-09-15T20:00:00",
+  "dateUpdated": null,
+  "url": "https://example.com/test"
+}
+
+### 4. Get Content by ID (use ID from previous response)
+GET {{baseUrl}}/api/content/1
+Accept: application/json
+
+### 5. Update Content
+PUT {{baseUrl}}/api/content/1
+Content-Type: application/json
+
+{
+  "title": "Updated Test Article",
+  "desc": "This is an updated test article description",
+  "status": "IN_PROGRESS",
+  "contentType": "ARTICLE",
+  "dateCreated": "2025-09-15T20:00:00",
+  "dateUpdated": "2025-09-15T21:00:00",
+  "url": "https://example.com/updated-test"
+}
+
+### 6. Search by Title
+GET {{baseUrl}}/api/content/filter/Updated
+Accept: application/json
+
+### 7. Search by Status
+GET {{baseUrl}}/api/content/filter/status/IN_PROGRESS
+Accept: application/json
+
+### 8. Test Error Cases - Get Non-existent Content
+GET {{baseUrl}}/api/content/999
+Accept: application/json
+
+### 9. Test Error Cases - Update Non-existent Content
+PUT {{baseUrl}}/api/content/999
+Content-Type: application/json
+
+{
+  "title": "Should Fail",
+  "desc": "This should return 404",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dateCreated": "2025-09-15T20:00:00",
+  "url": "https://example.com/fail"
+}
+
+### 10. Test Error Cases - Delete Non-existent Content
+DELETE {{baseUrl}}/api/content/999
+
+### 11. Create Content with Validation Errors (missing required fields)
+POST {{baseUrl}}/api/content
+Content-Type: application/json
+
+{
+  "desc": "Missing title - should fail validation",
+  "status": "IDEA",
+  "contentType": "ARTICLE"
+}
+
+### 12. Delete Content (use existing ID)
+DELETE {{baseUrl}}/api/content/1
+
+### 13. Verify Deletion
+GET {{baseUrl}}/api/content/1
+Accept: application/json

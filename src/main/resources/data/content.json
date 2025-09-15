@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Threads vs Async",
+    "desc": "A detailed guide on the subject.",
+    "status": "COMPLETED",
+    "contentType": "CONFERENCE_TALK",
+    "dateCreated": "2025-08-05T18:05:11.962123",
+    "dateUpdated": "2025-09-10T18:05:11.962123",
+    "url": "https://example.com/content/1"
+  },
+  {
+    "title": "Deep Dive into React",
+    "desc": "Highlights common pitfalls.",
+    "status": "IDEA",
+    "contentType": "COURSE",
+    "dateCreated": "2025-06-30T18:05:11.962123",
+    "dateUpdated": "2025-08-13T18:05:11.962123",
+    "url": "https://example.com/content/2"
+  },
+  {
+    "title": "TypeScript Best Practices",
+    "desc": "Step-by-step tutorial.",
+    "status": "IN_PROGRESS",
+    "contentType": "ARTICLE",
+    "dateCreated": "2025-07-07T18:05:11.962123",
+    "dateUpdated": "2025-08-30T18:05:11.962123",
+    "url": "https://example.com/content/3"
+  },
+  {
+    "title": "SaaS Scaling Strategies",
+    "desc": "Focus on performance and scalability.",
+    "status": "PUBLISHED",
+    "contentType": "CONFERENCE_TALK",
+    "dateCreated": "2025-08-01T18:05:11.962123",
+    "dateUpdated": "2025-08-30T18:05:11.962123",
+    "url": "https://example.com/content/4"
+  },
+  {
+    "title": "Vue.js from Scratch",
+    "desc": "A theoretical and practical overview.",
+    "status": "IDEA",
+    "contentType": "ARTICLE",
+    "dateCreated": "2025-07-28T18:05:11.962123",
+    "dateUpdated": "2025-09-10T18:05:11.962123",
+    "url": "https://example.com/content/5"
+  },
+  {
+    "title": "DevOps Crash Course",
+    "desc": "Focus on performance and scalability.",
+    "status": "IDEA",
+    "contentType": "COURSE",
+    "dateCreated": "2025-06-19T18:05:11.962123",
+    "dateUpdated": "2025-09-11T18:05:11.962123",
+    "url": "https://example.com/content/6"
+  },
+  {
+    "id": 7,
+    "title": "Design Patterns in Java",
+    "desc": "A detailed guide on the subject.",
+    "status": "PUBLISHED",
+    "contentType": "COURSE",
+    "dateCreated": "2025-06-13T18:05:11.962123",
+    "dateUpdated": "2025-08-06T18:05:11.962123",
+    "url": "https://example.com/content/7"
+  },
+  {
+    "title": "Event-Driven Systems",
+    "desc": "Step-by-step tutorial.",
+    "status": "IN_PROGRESS",
+    "contentType": "ARTICLE",
+    "dateCreated": "2025-07-20T18:05:11.962123",
+    "dateUpdated": "2025-09-07T18:05:11.962123",
+    "url": "https://example.com/content/8"
+  },
+  {
+    "title": "MLOps Fundamentals",
+    "desc": "Explains fundamentals with clarity.",
+    "status": "IN_PROGRESS",
+    "contentType": "ARTICLE",
+    "dateCreated": "2025-08-19T18:05:11.962123",
+    "dateUpdated": "2025-07-28T18:05:11.962123",
+    "url": "https://example.com/content/9"
+  },
+  {
+    "title": "Natural Language Processing",
+    "desc": "Covers advanced use cases and real-world examples.",
+    "status": "COMPLETED",
+    "contentType": "VIDEO",
+    "dateCreated": "2025-07-19T18:05:11.962123",
+    "dateUpdated": "2025-08-05T18:05:11.962123",
+    "url": "https://example.com/content/10"
+  },
+  {
+    "title": "Threads vs Async",
+    "desc": "Explains fundamentals with clarity.",
+    "status": "IN_PROGRESS",
+    "contentType": "CONFERENCE_TALK",
+    "dateCreated": "2025-06-30T18:05:11.962123",
+    "dateUpdated": "2025-08-18T18:05:11.962123",
+    "url": "https://example.com/content/11"
+  },
+  {
+    "title": "Threads vs Async",
+    "desc": "Highlights common pitfalls.",
+    "status": "COMPLETED",
+    "contentType": "VIDEO",
+    "dateCreated": "2025-07-23T18:05:11.962123",
+    "dateUpdated": "2025-09-13T18:05:11.962123",
+    "url": "https://example.com/content/12"
+  },
+  {
+    "title": "Microservices with Spring",
+    "description": "Highlights common pitfalls.",
+    "status": "IDEA",
+    "contentType": "COURSE",
+    "dateCreated": "2025-07-15T18:05:11.962123",
+    "dateUpdated": "2025-08-13T18:05:11.962123",
+    "url": "https://example.com/content/13"
+  }
+]
